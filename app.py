@@ -17,7 +17,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-client=Groq(api_key="")
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 st.title("🧠 AI Medical Report Analyzer")
 uploaded_file=st.file_uploader("Upload your medical report(PDF)",type="pdf")
