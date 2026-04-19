@@ -1,6 +1,7 @@
 import streamlit as st
 from groq import Groq
 import re 
+import os
 
 st.markdown("""
 <style>
