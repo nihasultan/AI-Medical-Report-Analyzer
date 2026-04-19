@@ -1,6 +1,8 @@
 # AI-Medical-Report-Analyzer
 Built a Streamlit-based application to extract and analyze medical reports (PDF) using LLMs and regex-based parsing. Implemented hybrid system combining rule-based anomaly detection (vitals, BP, glucose, cholesterol) with LLM-generated explanations using Groq API
 
+LIVE DEMO: https://ai-medical-report-analyzer-fekc5dhid8wrogdskk5tmp.streamlit.app
+
 Overview
 This project analyzes medical reports (PDF) and provides:
 -Detection of abnormal values (vitals & lab parameters)
